@@ -1,5 +1,3 @@
-package src.calculadora;
-
 import java.util.Scanner;
 
 public class CalculadoraDosNumeros {
@@ -20,6 +18,7 @@ public class CalculadoraDosNumeros {
 
                 System.out.print("Introduce el segundo numero: ");
                 numero2 = scanner.nextFloat();
+                scanner.close();
             }
 
             switch (opcion) {

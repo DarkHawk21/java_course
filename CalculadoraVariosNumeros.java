@@ -1,5 +1,3 @@
-package src.calculadora;
-
 import java.util.Scanner;
 
 public class CalculadoraVariosNumeros {
@@ -18,6 +16,7 @@ public class CalculadoraVariosNumeros {
         for (int i = 0; i < cantidadNumeros; i++) {
             System.out.println("Escribe el número " + (i + 1) + " a sumar: ");
             numerosASumar[i] = scanner.nextFloat();
+            scanner.close();
         }
 
         for(int j = 0; j < numerosASumar.length; j++) {
