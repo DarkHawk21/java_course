@@ -1,3 +1,4 @@
+package programacion_estructurada.escuela;
 import java.util.Scanner;
 
 public class CalculadoraVariosN {

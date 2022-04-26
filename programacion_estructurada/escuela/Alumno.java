@@ -1,3 +1,4 @@
+package programacion_estructurada.escuela;
 class Alumno {
     // Propiedades o atributos
     String nombre;
